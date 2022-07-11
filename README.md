@@ -1,12 +1,11 @@
-# Dont Slowmode Me
+# Warn All Messages
 
-A Powercord Plugin to Prevent you getting stuck in the Slowmode Bucket
+A Powercord Plugin to confirm you want to send something, every time you try sending a message, because Ran-helo asked for it
 
 Install with:
 
 ```
-git clone https://github.com/SammCheese/Do-Not-Slowmode-Me/
+git clone https://github.com/CodeF53/PowercordWarnAllMessages/
 ```
 
-#
-By Default, the Plugin blocks Sending Messages if the Slowmode is 10 or more Minutes in a Channel (Configurable in Settings)
+By Default, the Plugin blocks Sending Messages.

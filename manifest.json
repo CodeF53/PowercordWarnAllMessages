@@ -1,7 +1,7 @@
 {
-    "name": "Do Not Slowmode Me",
-    "version": "1.1.2", 
-    "description": "Warns you before sending a Message about slowmode",
-    "author": "SammCheese",
+    "name": "Warn All Messages",
+    "version": "1.0.0", 
+    "description": "Confirm you want to send your messages",
+    "author": "CodeF53",
     "license": "Unlicensed"
 }

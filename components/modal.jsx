@@ -14,7 +14,7 @@ module.exports = ({ slowmode, channel, message }) =>
     </Modal.Header>
     <Modal.Content>
       <Card>
-        <h1>This will put you into a { slowmode } second slowmode, Continue?</h1>
+        <h1>Do you actually want to send this message? In this channel? Now?</h1>
       </Card>
     </Modal.Content>
     <Modal.Footer>
@@ -25,7 +25,7 @@ module.exports = ({ slowmode, channel, message }) =>
           sendMessage(channel, { ...message, __DNSM_afterWarn: true }) 
         }}
         color={ Button.Colors.RED }>
-      Send Message Anyway
+      Send
       </Button>
       <Button
         style={{ marginRight: '10px' }}
@@ -36,7 +36,7 @@ module.exports = ({ slowmode, channel, message }) =>
           });
         } }
         color={ Button.Colors.GREEN }>
-      Take Me Back to Safety
+      Cancel
       </Button>
     </Modal.Footer>
   </Modal>
